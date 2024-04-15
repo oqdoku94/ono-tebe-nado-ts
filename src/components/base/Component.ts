@@ -1,9 +1,9 @@
-import {IEvents} from "./events";
+import { IView } from "../../types/view";
 
 /**
  * Базовый компонент
  */
-export abstract class Component<T> {
+export abstract class Component<T> implements IView<T>{
     protected constructor(protected readonly container: HTMLElement) {
         // Учитывайте что код в конструкторе исполняется ДО всех объявлений в дочернем классе
     }

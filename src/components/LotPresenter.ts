@@ -1,0 +1,6 @@
+class	LotPresenter {
+	constructor() {
+
+	}
+
+}
